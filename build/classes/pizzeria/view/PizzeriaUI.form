@@ -40,12 +40,12 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="1" pref="593" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="1" pref="615" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="0" pref="460" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" pref="463" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -117,62 +117,82 @@
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="btnCrear" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="36" pref="36" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                                  <Component id="Estado" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="jScrollBar1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="200" max="-2" attributes="0"/>
+                          <Component id="jTextField2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
                           <Component id="lblTitulo" min="-2" pref="169" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace min="0" pref="28" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="214" max="-2" attributes="0"/>
+                  <Component id="jTextField1" min="-2" pref="145" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                  <Component id="lblTitulo" min="-2" pref="75" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="jScrollBar1" min="-2" max="-2" attributes="0"/>
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="lblTitulo1" alignment="1" min="-2" pref="17" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="lblTitulo2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="lblTitulo3" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
-                              </Group>
+                  <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblTitulo" min="-2" pref="75" max="-2" attributes="0"/>
+                      <Component id="jTextField2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="lblTitulo1" alignment="1" min="-2" pref="17" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblTitulo2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblTitulo3" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cbSalsa" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbSize" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbMasa" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
+                          <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="cbSalsa" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="cbSize" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="cbMasa" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="jScrollPane3" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="chkBordes" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="chkSinGluten" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
+                              <Component id="jScrollPane1" max="32767" attributes="0"/>
+                              <Component id="jScrollPane3" max="32767" attributes="0"/>
+                              <Component id="jScrollBar1" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="chkBordes" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkSinGluten" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace pref="47" max="32767" attributes="0"/>
-                  <Component id="btnCrear" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="btnCrear" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                              <Component id="Estado" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jButton1" alignment="0" max="32767" attributes="0"/>
+                  </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -183,9 +203,6 @@
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="18" style="1"/>
-            </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\31061\OneDrive\Escritorio\logo.png"/>
             </Property>
           </Properties>
         </Component>
@@ -230,35 +247,39 @@
           <SubComponents>
             <Component class="javax.swing.JList" name="listToppings">
               <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder/>
+                  </Border>
+                </Property>
                 <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
-                  <StringArray count="27">
-                    <StringItem index="0" value="Lista de toppings"/>
-                    <StringItem index="1" value="Pepperoni"/>
-                    <StringItem index="2" value="Jam&#xf3;n"/>
-                    <StringItem index="3" value="Tocino"/>
-                    <StringItem index="4" value="Pollo a la parrilla"/>
-                    <StringItem index="5" value="Carne molida"/>
-                    <StringItem index="6" value="Chorizo"/>
-                    <StringItem index="7" value="Anchoas"/>
-                    <StringItem index="8" value="Mozzarella"/>
-                    <StringItem index="9" value="Parmesano"/>
-                    <StringItem index="10" value="Cheddar"/>
-                    <StringItem index="11" value="Queso azul"/>
-                    <StringItem index="12" value="Provolone"/>
-                    <StringItem index="13" value="Ricotta"/>
-                    <StringItem index="14" value="Champi&#xf1;ones"/>
-                    <StringItem index="15" value="Pimientos (rojo, verde, amarillo)"/>
-                    <StringItem index="16" value="Cebolla morada"/>
-                    <StringItem index="17" value="Espinaca"/>
-                    <StringItem index="18" value="Tomates cherry"/>
-                    <StringItem index="19" value="Alcachofas"/>
-                    <StringItem index="20" value="Ma&#xed;z dulce"/>
-                    <StringItem index="21" value="Aceitunas negras o verdes"/>
-                    <StringItem index="22" value="Albahaca fresca"/>
-                    <StringItem index="23" value="R&#xfa;cula"/>
-                    <StringItem index="24" value="Pi&#xf1;a (s&#xed;, la famosa pizza hawaiana)"/>
-                    <StringItem index="25" value="Jalape&#xf1;os"/>
-                    <StringItem index="26" value="Salsa BBQ o pesto"/>
+                  <StringArray count="26">
+                    <StringItem index="0" value="Pepperoni"/>
+                    <StringItem index="1" value="Jam&#xf3;n"/>
+                    <StringItem index="2" value="Tocino"/>
+                    <StringItem index="3" value="Pollo a la parrilla"/>
+                    <StringItem index="4" value="Carne molida"/>
+                    <StringItem index="5" value="Chorizo"/>
+                    <StringItem index="6" value="Anchoas"/>
+                    <StringItem index="7" value="Mozzarella"/>
+                    <StringItem index="8" value="Parmesano"/>
+                    <StringItem index="9" value="Cheddar"/>
+                    <StringItem index="10" value="Queso azul"/>
+                    <StringItem index="11" value="Provolone"/>
+                    <StringItem index="12" value="Ricotta"/>
+                    <StringItem index="13" value="Champi&#xf1;ones"/>
+                    <StringItem index="14" value="Pimientos (rojo, verde, amarillo)"/>
+                    <StringItem index="15" value="Cebolla morada"/>
+                    <StringItem index="16" value="Espinaca"/>
+                    <StringItem index="17" value="Tomates cherry"/>
+                    <StringItem index="18" value="Alcachofas"/>
+                    <StringItem index="19" value="Ma&#xed;z dulce"/>
+                    <StringItem index="20" value="Aceitunas negras o verdes"/>
+                    <StringItem index="21" value="Albahaca fresca"/>
+                    <StringItem index="22" value="R&#xfa;cula"/>
+                    <StringItem index="23" value="Pi&#xf1;a (s&#xed;, la famosa pizza hawaiana)"/>
+                    <StringItem index="24" value="Jalape&#xf1;os"/>
+                    <StringItem index="25" value="Salsa BBQ o pesto"/>
                   </StringArray>
                 </Property>
               </Properties>
@@ -281,7 +302,7 @@
         <Component class="javax.swing.JButton" name="btnCrear">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+              <Color blue="ff" green="cc" red="66" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI Black" size="12" style="0"/>
@@ -301,7 +322,7 @@
               </Border>
             </Property>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-              <Color id="Cursor de Mano"/>
+              <Color id="Default Cursor"/>
             </Property>
           </Properties>
           <Events>
@@ -365,6 +386,66 @@
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
           </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="Estado">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="12" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="ESTADO PEDIDO"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder>
+                  <Color PropertyName="highlightOuter" blue="0" green="0" red="0" type="rgb"/>
+                  <Color PropertyName="highlightInner" blue="0" green="0" red="0" type="rgb"/>
+                  <Color PropertyName="shadowOuter" blue="0" green="0" red="0" type="rgb"/>
+                  <Color PropertyName="shadowInner" blue="0" green="0" red="0" type="rgb"/>
+                </BevelBorder>
+              </Border>
+            </Property>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Default Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EstadoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="PIZZERIA MAJO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField2">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="DISE&#xd1;E A SU GUSTO SU PIZZA"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Black" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="cc" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="PEDIR PIZZA"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
