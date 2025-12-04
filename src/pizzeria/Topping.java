@@ -1,0 +1,7 @@
+package pizzeria;
+
+public enum Topping {
+    QUESO_EXTRA, PEPPERONI, JAMON, TOCINETA,
+    CHAMPIÑONES, PIMENTON, CEBOLLA, ACEITUNAS,
+    PIÑA, POLLO, MAIZ
+}
